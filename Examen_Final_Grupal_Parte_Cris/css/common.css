@@ -1,0 +1,32 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.miBoton{ /* Cris. Miboton usando etiqueta <a> */
+	display:inline-block;
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 5px; /* Cris. redondear esquinar de los botones */
+}
+
+.botonBlanco{ /* Cris. Para crear boton de fondo blanco con etiqueta <a> */
+	background: rgba(255,255,255,.3); /* Cris. RBGA afecta sólo a la opacidad del elemento sobre el que 
+	se aplica la propiedad, sin afectar a los elementos que se encuentren en su interior, al contrario de 
+	opacity que si afecta a los elementos internos.*/
+	width: 160px;
+    height: 60px;
+}
+
+.miP{ /* Cris. Me ayuda al tamaño de mi letra */
+	width: 100%;
+	height: 50%;
+}
+
+.bt2{ /* Cris. Me ayuda crear mi segundo boton */
+	width: 50%;
+	height: 40px;
+}
+
+.miLetra{
+	font-size: 20px;
+}
